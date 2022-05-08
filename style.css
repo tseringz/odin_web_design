@@ -6,9 +6,11 @@ body
  font-size: 18px;
  margin: 0;
 }
-*
+*, *::after, *::before
 {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 h1{
     font-size: 48px;
@@ -29,6 +31,7 @@ h2{
     text-align: center;
     margin: 16px 0 10px 0;
     }
+
     p
     {
     font-size: 16px;
@@ -153,12 +156,11 @@ font-weight: light italic;
 .call-to-action
 {
 width: 100%;
-height: 200px;
 display: flex;
 flex-direction: row;
 justify-content: center; 
-padding-top: 100px;
-padding-bottom: 30px;
+align-items: center;
+padding: 40px 0 40px 0;
 }
 .call-wrapper
 {
@@ -170,15 +172,11 @@ align-items: center;
 width: 70vw;
 height: 100px;
 background-color: #5e64b5;
-padding: 30px 40px 20px 40px;
+padding: 70px 50px 70px 50px;
 margin-right: 20px;
 
 }
-.call-wrapper div
-{
- padding: 0 20px 0 20px;
 
-}
 .action{
 text-align: left;
 color: #e5e7eb;
