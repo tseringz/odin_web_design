@@ -99,7 +99,8 @@ height: 350px;
 {
 margin-right: 40px;
 }
-.content-wrapper
+
+#content-wrapper
 {
 display: flex;
 flex-direction: column;
@@ -137,7 +138,7 @@ border-color: #f9faf8;
 border-style: solid;
 }
 
-.quote-wrapper
+#quote-wrapper
 {
 background-color: #e5e7eb;
 display: flex;
@@ -153,7 +154,7 @@ font-size: 36px;
 font-weight: light italic;
 }
 
-.call-to-action
+#call-to-action
 {
 width: 100%;
 display: flex;
