@@ -1,6 +1,6 @@
 # Landing Page
 
-Created a langing page for The Odin Project
+Created a landing page for The Odin Project
 
 ## Links
 [Visit The Langing Page](https://tseringz.github.io/odin_web_design)
